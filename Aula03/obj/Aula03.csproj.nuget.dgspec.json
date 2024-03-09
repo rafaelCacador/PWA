@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/aluno/Área de Trabalho/PWA/PWA/Aula03/Aula03.csproj": {}
+    "/media/aluno/6672-2A45/PWA/Aula03/Aula03.csproj": {}
   },
   "projects": {
-    "/home/aluno/Área de Trabalho/PWA/PWA/Aula03/Aula03.csproj": {
+    "/media/aluno/6672-2A45/PWA/Aula03/Aula03.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/aluno/Área de Trabalho/PWA/PWA/Aula03/Aula03.csproj",
+        "projectUniqueName": "/media/aluno/6672-2A45/PWA/Aula03/Aula03.csproj",
         "projectName": "Aula03",
-        "projectPath": "/home/aluno/Área de Trabalho/PWA/PWA/Aula03/Aula03.csproj",
+        "projectPath": "/media/aluno/6672-2A45/PWA/Aula03/Aula03.csproj",
         "packagesPath": "/home/aluno/.nuget/packages/",
-        "outputPath": "/home/aluno/Área de Trabalho/PWA/PWA/Aula03/obj/",
+        "outputPath": "/media/aluno/6672-2A45/PWA/Aula03/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/aluno/.nuget/NuGet/NuGet.Config"
@@ -37,16 +37,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Dapper": {
-              "target": "Package",
-              "version": "[2.1.28, )"
-            },
-            "Microsoft.Data.Sqlite": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zjqR0mermzIoGdTibSzIxUtEGAHoSPpZtPX8WxRYj/h/GOxCdSCpkWD1JaPk0TGEoOehasIMH52A5UH1azCmog==",
+  "dgSpecHash": "NOp0DpbCLwWZsdotkPv7UKiEKidMnpI7tqLx/rXx15l/ibyXT0JD9ImbjJHYBOdy6VF2qEfVEQEp6rbXk1IFRg==",
   "success": true,
-  "projectFilePath": "/home/aluno/Área de Trabalho/Aula02/SQLinjection.csproj",
+  "projectFilePath": "/media/aluno/6672-2A45/PWA/Aula02/SQLinjection.csproj",
   "expectedPackageFiles": [
     "/home/aluno/.nuget/packages/microsoft.data.sqlite/8.0.2/microsoft.data.sqlite.8.0.2.nupkg.sha512",
     "/home/aluno/.nuget/packages/microsoft.data.sqlite.core/8.0.2/microsoft.data.sqlite.core.8.0.2.nupkg.sha512",

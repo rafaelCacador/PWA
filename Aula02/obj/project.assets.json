@@ -327,11 +327,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/aluno/Área de Trabalho/Aula02/SQLinjection.csproj",
+      "projectUniqueName": "/media/aluno/6672-2A45/PWA/Aula02/SQLinjection.csproj",
       "projectName": "SQLinjection",
-      "projectPath": "/home/aluno/Área de Trabalho/Aula02/SQLinjection.csproj",
+      "projectPath": "/media/aluno/6672-2A45/PWA/Aula02/SQLinjection.csproj",
       "packagesPath": "/home/aluno/.nuget/packages/",
-      "outputPath": "/home/aluno/Área de Trabalho/Aula02/obj/",
+      "outputPath": "/media/aluno/6672-2A45/PWA/Aula02/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/aluno/.nuget/NuGet/NuGet.Config"

@@ -1,107 +1,174 @@
-﻿using Dapper;
+﻿using Aula03.daos;
+using Aula03.models;
 
+var p1 = new Produto 
+{
+    Codigo = "123",
+    Descricao = "Coca-Cola",
+    Preco = 5.5
+};
+
+var p2 = new Produto 
+{
+    Codigo = "234",
+    Descricao = "Papsi",
+    Preco = 5.0
+};
+
+var dao = new ProdutoDAO();
+
+dao.Inserir(p1);
+dao.Inserir(p2);
+
+Imprimir();
+
+p2.Descricao = "Pepsi";
+
+dao.Alterar(p2);
+
+Imprimir();
+
+void Imprimir()
+{
+    foreach (var obj in dao.RetornarTodos())
+        Console.WriteLine($"{obj.Id} - {obj.Descricao} - {obj.Codigo} - {obj.Preco:N2}");
+    
+    Console.WriteLine("--------------------------");
+}
+
+/*
+using Dapper;
 using Microsoft.Data.Sqlite;
 
-
-using(var conexao = new SqliteConnection(@"Data Source=contato.db")){
-
+using(var conexao = new SqliteConnection("Data Source=db/dados.db"))
+{
     conexao.Open();
 
+    
     var obj = new Contato
     {
-        Id ="5",
-        Nome = "Zé",
-        Email = "ze@email.com"
+        Id = "5",
+        Nome = "José",
+        Email = "jose@email.com"
     };
+    
+    const string sql =  "INSERT INTO contato" + 
+                        " (id, nome, email)" + 
+                        " VALUES (@Id, @Nome, @Email)";
+    const string sql = "UPDATE contato" + 
+            " SET nome = @Nome, email = @Email" + 
+            " WHERE id = @Id";
+    const string sql = "DELETE FROM contato WHERE id = @Id";
+    
+    const string sql = "SELECT * FROM contato WHERE id = @Id";
+    var obj = conexao.QuerySingle<Contato>(sql, new { Id = 1 });
+
+    Console.WriteLine($"{obj.Nome} - {obj.Email}");
 
 
+    const string sql = "SELECT * FROM contato ORDER BY nome";
+    const string sql = "SELECT * FROM contato" + 
+        " WHERE nome LIKE @ParteNome" + 
+        " ORDER BY nome";
 
-    const string sql = "INSERT INTO contato" +
-                        "(id, nome, email)" +
-                        "VALUES(@Id, @Nome, @Email)";
-               
+    var objetos = conexao.Query<Contato>(sql, new { ParteNome = "%n%"});
+    var objetos = conexao.Query<Contato>(sql);
+
+    foreach (var obj in objetos)
+        Console.WriteLine($"{obj.Nome} - {obj.Email}");
+    conexao.Execute(sql, new { Id = "3" });
     conexao.Execute(sql, obj);
-
-// Resumindo o uso do Dapper
-// insert/update/ delete etc
-
-//var count = connection.Execute(sql [,args]);
-
-// consulta com múltiplas linhas
-
-// IEnumerable<T> rows = connection.Query<T>(sql [, args]);
-
-// consulta de única linha ({Single|First} [OrDefault])
-
-//T row = connection.QuerySingle<T>(sql [, args]);
-
-
-}
-//  -----------------------------------------------------------------------------------
-/*
-using(var conexao = new SqliteConnection(@"Data Source=contato.db")){
-
-    conexao.Open();
-    var obj = new Contato
-    {
-        Id ="5",
-        Nome = "Zé",
-        Email = "ze@email.com"
-    };
-
-    //Reflection
-
-    var tipo = obj.GetType();
-    Console.WriteLine(tipo.FullName);
-
-    foreach (var prop in tipo.GetProperties())
-    {
-        Console.WriteLine($"{prop.Name}: {prop.GetValue(obj)}");
-    }
 }
 */
 
-//--------------------------------------------------------------------------------------------
-
 /*
-    var prop = tipo.GetProperty("Email");
-    if(prop != null ){
-        Console.WriteLine($"{prop.Name}: {prop.GetValue(obj)}");
-    }
+var obj = new Contato
+{
+    Id = "5",
+    Nome = "Zé",
+    Email = "ze@email.com"
+};
+
+//Reflection
+
+var tipo = obj.GetType();
+Console.WriteLine(tipo.FullName);
+
+foreach (var prop in tipo.GetProperties())
+{
+    Console.WriteLine($"{prop.Name}: {prop.GetValue(obj)}");
+}
 */
 
 /*
-using(var conexao = new SqliteConnection(@"Data Source=contato.db")){
+var prop = tipo.GetProperty("Id");
 
+if (prop != null)
+{
+    Console.WriteLine($"{prop.Name}: {prop.GetValue(obj)}");
+}
+*/
+
+
+/*
+using(var conexao = new SqliteConnection("Data Source=db/dados.db"))
+{
     conexao.Open();
 
     var obj = new Contato
     {
-        Id ="5",
+        Id = "5",
         Nome = "Zé",
         Email = "ze@email.com"
     };
 
-
-
-    const string sql = "INSERT INTO contato" +
-                        "(id, nome, email)" +
-                        "VALUES(@Id, @Nome, @Email)";
-               
+    const string sql =  "INSERT INTO contato" + 
+                        " (id, nome, email)" + 
+                        " VALUES (@Id, @Nome, @Email)";
+    
     conexao.Execute(sql, obj);
+}
+*/
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+using(var conexao = new SqliteConnection("Data Source=db/dados.db"))
+{
+    conexao.Open();
 
     var cmd = conexao.CreateCommand();
-
-    cmd.CommandText = "SELECT * FROM contato";
-
-    var dr = cmd.ExecuteReader();
-
-    while(dr.Read()){
-        Console.WriteLine($"{dr["nome"]}: {dr["email"]}");
-    }
-
-    dr.Close();
+    
+    cmd.CommandText = "INSERT INTO contato" + 
+                      " (id, nome, email)" + 
+                      " VALUES (@id, @nome, @email)";
+    cmd.CommandText = "UPDATE contato" + 
+        " SET nome=@nome, email=@email WHERE id=@id";
+    cmd.CommandText = "DELETE FROM contato WHERE id=@id";
+    cmd.Parameters.AddWithValue("@id", 4);
+    cmd.Parameters.AddWithValue("@nome", "Daniel da Silva");
+    cmd.Parameters.AddWithValue("@email", 
+                               "daniel@email.com");
+    cmd.ExecuteNonQuery();
 }
 */

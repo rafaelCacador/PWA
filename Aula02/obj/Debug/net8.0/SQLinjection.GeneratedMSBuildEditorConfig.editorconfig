@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SQLinjection
-build_property.ProjectDir = /home/aluno/Área de Trabalho/Aula02/
+build_property.ProjectDir = /media/aluno/6672-2A45/PWA/Aula02/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
