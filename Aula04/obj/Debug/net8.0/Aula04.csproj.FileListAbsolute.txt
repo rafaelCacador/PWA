@@ -12,6 +12,7 @@
 /home/professor/Documentos/Camillo/Aula04/obj/Debug/net8.0/Aula04.pdb
 /home/professor/Documentos/Camillo/Aula04/obj/Debug/net8.0/Aula04.genruntimeconfig.cache
 /home/professor/Documentos/Camillo/Aula04/obj/Debug/net8.0/ref/Aula04.dll
+<<<<<<< HEAD
 /media/aluno/6672-2A45/PWA/Aula04/bin/Debug/net8.0/Aula04
 /media/aluno/6672-2A45/PWA/Aula04/bin/Debug/net8.0/Aula04.deps.json
 /media/aluno/6672-2A45/PWA/Aula04/bin/Debug/net8.0/Aula04.runtimeconfig.json
@@ -27,3 +28,20 @@
 /media/aluno/6672-2A45/PWA/Aula04/obj/Debug/net8.0/Aula04.pdb
 /media/aluno/6672-2A45/PWA/Aula04/obj/Debug/net8.0/Aula04.genruntimeconfig.cache
 /media/aluno/6672-2A45/PWA/Aula04/obj/Debug/net8.0/ref/Aula04.dll
+=======
+/home/aluno/Área de Trabalho/PWAa/PWA/Aula04/bin/Debug/net8.0/Aula04
+/home/aluno/Área de Trabalho/PWAa/PWA/Aula04/bin/Debug/net8.0/Aula04.deps.json
+/home/aluno/Área de Trabalho/PWAa/PWA/Aula04/bin/Debug/net8.0/Aula04.runtimeconfig.json
+/home/aluno/Área de Trabalho/PWAa/PWA/Aula04/bin/Debug/net8.0/Aula04.dll
+/home/aluno/Área de Trabalho/PWAa/PWA/Aula04/bin/Debug/net8.0/Aula04.pdb
+/home/aluno/Área de Trabalho/PWAa/PWA/Aula04/obj/Debug/net8.0/Aula04.GeneratedMSBuildEditorConfig.editorconfig
+/home/aluno/Área de Trabalho/PWAa/PWA/Aula04/obj/Debug/net8.0/Aula04.AssemblyInfoInputs.cache
+/home/aluno/Área de Trabalho/PWAa/PWA/Aula04/obj/Debug/net8.0/Aula04.AssemblyInfo.cs
+/home/aluno/Área de Trabalho/PWAa/PWA/Aula04/obj/Debug/net8.0/Aula04.csproj.CoreCompileInputs.cache
+/home/aluno/Área de Trabalho/PWAa/PWA/Aula04/obj/Debug/net8.0/Aula04.sourcelink.json
+/home/aluno/Área de Trabalho/PWAa/PWA/Aula04/obj/Debug/net8.0/Aula04.dll
+/home/aluno/Área de Trabalho/PWAa/PWA/Aula04/obj/Debug/net8.0/refint/Aula04.dll
+/home/aluno/Área de Trabalho/PWAa/PWA/Aula04/obj/Debug/net8.0/Aula04.pdb
+/home/aluno/Área de Trabalho/PWAa/PWA/Aula04/obj/Debug/net8.0/Aula04.genruntimeconfig.cache
+/home/aluno/Área de Trabalho/PWAa/PWA/Aula04/obj/Debug/net8.0/ref/Aula04.dll
+>>>>>>> 29ba402bc83ecc6dfbc6d7e682d4c1cc3d18269c
