@@ -13,19 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "/media/aluno/6672-2A45/PWA/Aula04/Aula04.csproj",
-      "projectName": "Aula04",
-      "projectPath": "/media/aluno/6672-2A45/PWA/Aula04/Aula04.csproj",
-      "packagesPath": "/home/aluno/.nuget/packages/",
-      "outputPath": "/media/aluno/6672-2A45/PWA/Aula04/obj/",
-=======
       "projectUniqueName": "/home/aluno/Área de Trabalho/PWAa/PWA/Aula04/Aula04.csproj",
       "projectName": "Aula04",
       "projectPath": "/home/aluno/Área de Trabalho/PWAa/PWA/Aula04/Aula04.csproj",
       "packagesPath": "/home/aluno/.nuget/packages/",
       "outputPath": "/home/aluno/Área de Trabalho/PWAa/PWA/Aula04/obj/",
->>>>>>> 29ba402bc83ecc6dfbc6d7e682d4c1cc3d18269c
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/aluno/.nuget/NuGet/NuGet.Config"

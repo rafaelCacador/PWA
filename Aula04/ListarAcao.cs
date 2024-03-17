@@ -5,14 +5,14 @@ using System.Threading.Tasks;
 
 namespace Aula04
 {
-    public class ListarAcao : PessoaAcao<string>
+    public class ListarAcao : IPessoaAcao<string>
     {
-        public override string ExecutarAcao(PessoaFisica obj)
+        public string ExecutarAcao(PessoaFisica obj)
         {
             return $"{obj.Nome} filho(a) de {obj.Filiacao}";
         }
 
-        public override string ExecutarAcao(PessoaJuridica obj)
+        public string ExecutarAcao(PessoaJuridica obj)
         {
             return $"{obj.Nome}, contato: {obj.Contato}";
         }

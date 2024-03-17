@@ -9,6 +9,6 @@ namespace Aula04
     {
         public string Nome { get; set; } = "";
 
-        public abstract T ExecutarAcao<T>(PessoaAcao<T> acao);
+        public abstract T ExecutarAcao<T>(IPessoaAcao<T> acao);
     }
 }

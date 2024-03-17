@@ -9,7 +9,7 @@ namespace Aula04
     {
         public string Filiacao { get; set; } = "";
 
-        public override T ExecutarAcao<T>(PessoaAcao<T> acao)
+        public override T ExecutarAcao<T>(IPessoaAcao<T> acao)
         {
             return acao.ExecutarAcao(this);
         }
