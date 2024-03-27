@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/media/aluno/6672-2A45/PWA/Aula04/Aula04.csproj": {}
+    "/media/aluno/6672-2A45/PWA/Atletas/AtletaInfra/AtletaInfra.csproj": {}
   },
   "projects": {
-    "/media/aluno/6672-2A45/PWA/Aula04/Aula04.csproj": {
+    "/media/aluno/6672-2A45/PWA/Atletas/AtletaInfra/AtletaInfra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/aluno/6672-2A45/PWA/Aula04/Aula04.csproj",
-        "projectName": "Aula04",
-        "projectPath": "/media/aluno/6672-2A45/PWA/Aula04/Aula04.csproj",
+        "projectUniqueName": "/media/aluno/6672-2A45/PWA/Atletas/AtletaInfra/AtletaInfra.csproj",
+        "projectName": "AtletaInfra",
+        "projectPath": "/media/aluno/6672-2A45/PWA/Atletas/AtletaInfra/AtletaInfra.csproj",
         "packagesPath": "/home/aluno/.nuget/packages/",
-        "outputPath": "/media/aluno/6672-2A45/PWA/Aula04/obj/",
+        "outputPath": "/media/aluno/6672-2A45/PWA/Atletas/AtletaInfra/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/aluno/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
