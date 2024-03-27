@@ -1,0 +1,12 @@
+/media/aluno/6672-2A45/PWA/Biblioteca_07/StringLibrary/bin/Debug/net8.0/StringLibrary.deps.json
+/media/aluno/6672-2A45/PWA/Biblioteca_07/StringLibrary/bin/Debug/net8.0/StringLibrary.dll
+/media/aluno/6672-2A45/PWA/Biblioteca_07/StringLibrary/bin/Debug/net8.0/StringLibrary.pdb
+/media/aluno/6672-2A45/PWA/Biblioteca_07/StringLibrary/obj/Debug/net8.0/StringLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/media/aluno/6672-2A45/PWA/Biblioteca_07/StringLibrary/obj/Debug/net8.0/StringLibrary.AssemblyInfoInputs.cache
+/media/aluno/6672-2A45/PWA/Biblioteca_07/StringLibrary/obj/Debug/net8.0/StringLibrary.AssemblyInfo.cs
+/media/aluno/6672-2A45/PWA/Biblioteca_07/StringLibrary/obj/Debug/net8.0/StringLibrary.csproj.CoreCompileInputs.cache
+/media/aluno/6672-2A45/PWA/Biblioteca_07/StringLibrary/obj/Debug/net8.0/StringLibrary.sourcelink.json
+/media/aluno/6672-2A45/PWA/Biblioteca_07/StringLibrary/obj/Debug/net8.0/StringLibrary.dll
+/media/aluno/6672-2A45/PWA/Biblioteca_07/StringLibrary/obj/Debug/net8.0/refint/StringLibrary.dll
+/media/aluno/6672-2A45/PWA/Biblioteca_07/StringLibrary/obj/Debug/net8.0/StringLibrary.pdb
+/media/aluno/6672-2A45/PWA/Biblioteca_07/StringLibrary/obj/Debug/net8.0/ref/StringLibrary.dll

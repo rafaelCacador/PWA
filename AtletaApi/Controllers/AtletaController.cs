@@ -16,7 +16,7 @@ namespace AtletaApi.Controllers
             objetos = new List<Atleta>
             {
                 new() { Id = "X1", Nome = "Ana", Altura = 1.7, Peso = 60 },
-                new() { Id = "X2", Nome = "Bruno", Altura = 2, Peso = 90 }
+                new() { Id = "X2", Nome = "Juliana", Altura = 2, Peso = 90 }
             };
         }
 
