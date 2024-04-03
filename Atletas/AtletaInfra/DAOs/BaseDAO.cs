@@ -19,7 +19,7 @@ public abstract class BaseDAO<T> where T : IModel
         if (string.IsNullOrWhiteSpace(obj.Id))
             obj.Id = Guid.NewGuid().ToString();
 
-        using (var conexao = new SqliteConnection("Data Source=db/dados.db"))
+        using (var conexao = new SqliteConnection(GetStringConexao()))
         {
             conexao.Open();
 
@@ -33,7 +33,7 @@ public abstract class BaseDAO<T> where T : IModel
 
     public void Alterar(T obj)
     {
-        using (var conexao = new SqliteConnection("Data Source=db/dados.db"))
+        using (var conexao = new SqliteConnection(GetStringConexao()))
         {
             conexao.Open();
 
@@ -47,7 +47,7 @@ public abstract class BaseDAO<T> where T : IModel
 
     public void Excluir(string id)
     {
-        using (var conexao = new SqliteConnection("Data Source=db/dados.db"))
+        using (var conexao = new SqliteConnection(GetStringConexao()))
         {
             conexao.Open();
 
@@ -59,7 +59,7 @@ public abstract class BaseDAO<T> where T : IModel
 
     public IList<T> RetornarTodos()
     {
-        using (var conexao = new SqliteConnection("Data Source=db/dados.db"))
+        using (var conexao = new SqliteConnection(GetStringConexao()))
         {
             conexao.Open();
 
@@ -73,7 +73,7 @@ public abstract class BaseDAO<T> where T : IModel
 
     public T RetornarPorId(string id)
     {
-        using (var conexao = new SqliteConnection("Data Source=db/dados.db"))
+        using (var conexao = new SqliteConnection(GetStringConexao()))
         {
             conexao.Open();
 
@@ -113,6 +113,11 @@ public abstract class BaseDAO<T> where T : IModel
             sb.Append($", {mapa.Campo}=@{mapa.Propriedade}");
 
         return sb.ToString().Substring(1);
+    }
+
+    private string GetStringConexao()
+    {
+        return "Data Source=../BD/banco_de_dados.db";
     }
 }
 
