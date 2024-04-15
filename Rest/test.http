@@ -1,0 +1,24 @@
+POST http://localhost:5024/api/atleta HTTP/1.1
+Content-Type: application/json
+
+{
+    "nome": "Zé",
+    "altura": 1.5,
+    "peso": 210
+}
+
+###
+
+DELETE http://localhost:5024/api/atleta/9757f53c-6b6c-408f-bfac-dd76c1d60d65 HTTP/1.1
+
+###
+
+PUT http://localhost:5024/api/atleta/3 HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "3",
+    "nome": "Carlos da Silva",
+    "altura": 1.9,
+    "peso": 100
+}
