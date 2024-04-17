@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "/media/aluno/6672-2A45/PWA/Aula09/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/media/aluno/6672-2A45/PWA/Aula09/obj/Debug/net8.0/compressed/alsuvocj5d.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/media/aluno/6672-2A45/PWA/Aula09/obj/Debug/net8.0/scopedcss/bundle/Aula09.styles.css",
+      "PackagePath": "staticwebassets/Aula09.styles.css"
+    },
+    {
+      "Id": "/media/aluno/6672-2A45/PWA/Aula09/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/media/aluno/6672-2A45/PWA/Aula09/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/media/aluno/6672-2A45/PWA/Aula09/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/media/aluno/6672-2A45/PWA/Aula09/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/media/aluno/6672-2A45/PWA/Aula09/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/media/aluno/6672-2A45/PWA/Aula09/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/media/aluno/6672-2A45/PWA/Aula09/wwwroot/sample-data/weather.json",
+      "PackagePath": "staticwebassets/sample-data/weather.json"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Aula09.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.Aula09.props",
+      "PackagePath": "build\\Aula09.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Aula09.props",
+      "PackagePath": "buildMultiTargeting\\Aula09.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Aula09.props",
+      "PackagePath": "buildTransitive\\Aula09.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,26 @@
+﻿@page "/counter"
+
+<PageTitle>Counter</PageTitle>
+
+
+<h1>Counter</h1>
+
+<p role="status">@msg: @currentCount</p>
+
+<button class="btn btn-danger" @onclick="IncrementCount">Aperta!</button>
+
+@code {
+    public string msg = "Aperta aí";
+
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        if(currentCount >= 100){
+            msg = "Já deu";
+        } else {
+            msg = "Aperta aí";
+            currentCount++;
+        }
+    }
+}
